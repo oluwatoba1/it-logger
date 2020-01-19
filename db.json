@@ -27,13 +27,6 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2019-05-31T19:57:35.544Z"
-    },
-    {
-      "id": 5,
-      "message": "Diagnosis finished on workstation 002",
-      "tech": "John Doe",
-      "attention": false,
-      "date": "2019-01-01T01:42:29.217Z"
     }
   ],
   "techs": [
@@ -51,6 +44,11 @@
       "id": 3,
       "firstName": "Sara",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Emma",
+      "lastName": "Ash",
+      "id": 4
     }
   ]
 }

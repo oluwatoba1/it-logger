@@ -17,7 +17,8 @@ const App = () => {
 	useEffect(() => {
 		//  Initialize Materialize JS
 		M.AutoInit();
-	});
+		//	eslint-disable-next-line
+	}, []);
 	return (
 		<Provider store={store}>
 			<Fragment>

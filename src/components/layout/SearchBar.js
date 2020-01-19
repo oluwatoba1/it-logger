@@ -1,14 +1,10 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { filterLogs, clearFilter } from '../../actions/logActions';
 
 const SearchBar = ({ filterLogs, clearFilter }) => {
 	const text = useRef('');
-
-	// useEffect(() => {
-	// 	if()
-	// })
 
 	const onChange = e => {
 		if (text.current.value !== '') {
